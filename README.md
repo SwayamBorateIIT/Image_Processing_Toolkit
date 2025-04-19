@@ -11,6 +11,6 @@ This repository contains our HDL sources and related attempts for the Image Proc
 
 Team:</br>
 - Krish Patel (23110235)</br>
-- Kshitij Agarwal (23110173)</br>
+- Kshitij Agarwal (23110174)</br>
 - Rudra Pratap Singh (23110281)</br>
 - Swayam Borate (23110066)
