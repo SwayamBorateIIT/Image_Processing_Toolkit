@@ -1,0 +1,111 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sat Apr 19 22:36:51 2025
+| Host         : Swayam running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file topmodule_control_sets_placed.rpt
+| Design       : topmodule
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    33 |
+|    Minimum number of control sets                        |    33 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   138 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    33 |
+| >= 0 to < 4        |     5 |
+| >= 4 to < 6        |     6 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |    10 |
+| >= 10 to < 12      |     5 |
+| >= 12 to < 14      |     1 |
+| >= 14 to < 16      |     4 |
+| >= 16              |     2 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              37 |           19 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              40 |           13 |
+| Yes          | No                    | No                     |             148 |           59 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              69 |           25 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------------+----------------------------------+-------------------------------+------------------+----------------+--------------+
+|        Clock Signal        |           Enable Signal          |        Set/Reset Signal       | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------------------+----------------------------------+-------------------------------+------------------+----------------+--------------+
+|  uut3/slowclk_reg_n_0_BUFG |                                  | uut3/flag_i_1_n_0             |                1 |              1 |         1.00 |
+|  uut3/slowclk_reg_n_0_BUFG | uut3/clear                       | uut3/flag_i_1_n_0             |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG             | uut1/ImRxComplete_i_1_n_0        |                               |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG             | uut4/CEA2                        | uut4/offset[5]_i_1_n_0        |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG             |                                  | uut2/TxD_i_1_n_0              |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG             | uut2/bitcounter[3]_i_2__0_n_0    | uut2/bitcounter[3]_i_1__0_n_0 |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG             |                                  | uut3/counter[3]_i_1_n_0       |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG             | uut1/bitcounter                  | uut1/bitcounter[3]_i_1_n_0    |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG             | uut4/conv[4]_i_2_n_0             | uut4/conv[4]_i_1_n_0          |                3 |              5 |         1.67 |
+|  clk_IBUF_BUFG             | uut4/CEA2                        |                               |                2 |              5 |         2.50 |
+|  clk_IBUF_BUFG             | uut4/FSM_onehot_state[3]_i_1_n_0 |                               |                3 |              5 |         1.67 |
+|  uut3/slowclk_reg_n_0_BUFG |                                  | uut3/din2_reg[7]_i_1_n_0      |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG             | dout_imtx                        |                               |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG             | din_top[7]_i_1_n_0               |                               |                4 |              8 |         2.00 |
+|  clk_IBUF_BUFG             | dout_conv_1_                     |                               |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG             | uut1/din[7]_i_1_n_0              |                               |                4 |              8 |         2.00 |
+|  uut3/slowclk_reg_n_0_BUFG | uut3/address2[8]_i_1_n_0         | uut3/clear                    |                3 |              9 |         3.00 |
+|  clk_IBUF_BUFG             | uut1/rxshiftreg                  |                               |                4 |              9 |         2.25 |
+|  clk_IBUF_BUFG             | addr_padded[10]_i_1_n_0          | dout_conv_1_                  |                3 |              9 |         3.00 |
+|  clk_IBUF_BUFG             | ena_processed                    | din_processed[7]_i_1_n_0      |                4 |              9 |         2.25 |
+|  clk_IBUF_BUFG             | wea_top                          | din_top[7]_i_1_n_0            |                3 |              9 |         3.00 |
+|  clk_IBUF_BUFG             | uut2/rightshiftreg               |                               |                2 |             10 |         5.00 |
+|  uut3/slowclk_reg_n_0_BUFG | uut3/address1                    |                               |                3 |             11 |         3.67 |
+|  clk_IBUF_BUFG             | ena_processed                    |                               |                7 |             11 |         1.57 |
+|  clk_IBUF_BUFG             | wea_top                          |                               |                4 |             11 |         2.75 |
+|  clk_IBUF_BUFG             | addr_padded[10]_i_1_n_0          |                               |                6 |             11 |         1.83 |
+|  clk_IBUF_BUFG             |                                  | uut1/counter[0]_i_1_n_0       |                3 |             12 |         4.00 |
+|  clk_IBUF_BUFG             |                                  | uut2/counter[0]_i_1__1_n_0    |                4 |             14 |         3.50 |
+|  clk_IBUF_BUFG             | uut1/addr1[13]_i_1_n_0           |                               |                6 |             14 |         2.33 |
+|  clk_IBUF_BUFG             | uut2/address                     |                               |                4 |             14 |         3.50 |
+|  clk_IBUF_BUFG             | uut4/w_addr[14]_i_1_n_0          |                               |                3 |             14 |         4.67 |
+|  clk_IBUF_BUFG             | uut4/CEC                         | uut4/sum[15]_i_1_n_0          |                5 |             18 |         3.60 |
+|  clk_IBUF_BUFG             |                                  |                               |               19 |             37 |         1.95 |
++----------------------------+----------------------------------+-------------------------------+------------------+----------------+--------------+
+
+

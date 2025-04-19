@@ -1,0 +1,342 @@
+
+*** Running vivado
+    with args -log topmodule.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source topmodule.tcl
+
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Sat Apr 19 22:35:32 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source topmodule.tcl -notrace
+Command: synth_design -top topmodule -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 32260
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1036.527 ; gain = 466.125
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'topmodule' [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/sources_1/new/topmodule.v:2]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_0' [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.runs/synth_1/.Xil/Vivado-39296-Swayam/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_0' (0#1) [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.runs/synth_1/.Xil/Vivado-39296-Swayam/realtime/blk_mem_gen_0_stub.v:6]
+WARNING: [Synth 8-689] width (14) of port connection 'addra' does not match port width (11) of module 'blk_mem_gen_0' [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/sources_1/new/topmodule.v:23]
+WARNING: [Synth 8-689] width (8) of port connection 'dina' does not match port width (16) of module 'blk_mem_gen_0' [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/sources_1/new/topmodule.v:23]
+WARNING: [Synth 8-689] width (8) of port connection 'douta' does not match port width (16) of module 'blk_mem_gen_0' [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/sources_1/new/topmodule.v:23]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_1' [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.runs/synth_1/.Xil/Vivado-39296-Swayam/realtime/blk_mem_gen_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_1' (0#1) [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.runs/synth_1/.Xil/Vivado-39296-Swayam/realtime/blk_mem_gen_1_stub.v:6]
+WARNING: [Synth 8-689] width (15) of port connection 'addra' does not match port width (11) of module 'blk_mem_gen_1' [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/sources_1/new/topmodule.v:32]
+WARNING: [Synth 8-689] width (8) of port connection 'dina' does not match port width (16) of module 'blk_mem_gen_1' [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/sources_1/new/topmodule.v:32]
+WARNING: [Synth 8-689] width (8) of port connection 'douta' does not match port width (16) of module 'blk_mem_gen_1' [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/sources_1/new/topmodule.v:32]
+WARNING: [Synth 8-689] width (14) of port connection 'addra' does not match port width (11) of module 'blk_mem_gen_0' [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/sources_1/new/topmodule.v:41]
+WARNING: [Synth 8-689] width (8) of port connection 'dina' does not match port width (16) of module 'blk_mem_gen_0' [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/sources_1/new/topmodule.v:41]
+WARNING: [Synth 8-689] width (8) of port connection 'douta' does not match port width (16) of module 'blk_mem_gen_0' [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/sources_1/new/topmodule.v:41]
+INFO: [Synth 8-6157] synthesizing module 'imrx' [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/sources_1/new/imrx.v:3]
+INFO: [Synth 8-226] default block is never used [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/sources_1/new/imrx.v:75]
+INFO: [Synth 8-6155] done synthesizing module 'imrx' (0#1) [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/sources_1/new/imrx.v:3]
+INFO: [Synth 8-6157] synthesizing module 'imtx' [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/sources_1/new/imtx.v:3]
+INFO: [Synth 8-226] default block is never used [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/sources_1/new/imtx.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'imtx' (0#1) [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/sources_1/new/imtx.v:3]
+INFO: [Synth 8-6157] synthesizing module 'padding' [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/sources_1/new/padding.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'padding' (0#1) [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/sources_1/new/padding.v:3]
+INFO: [Synth 8-6157] synthesizing module 'convolution' [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/sources_1/new/convolution.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'convolution' (0#1) [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/sources_1/new/convolution.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'topmodule' (0#1) [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/sources_1/new/topmodule.v:2]
+WARNING: [Synth 8-6014] Unused sequential element inc_bytecounter_reg was removed.  [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/sources_1/new/imrx.v:70]
+WARNING: [Synth 8-6014] Unused sequential element out_row_reg was removed.  [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/sources_1/new/padding.v:80]
+WARNING: [Synth 8-6014] Unused sequential element out_col_reg was removed.  [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/sources_1/new/padding.v:81]
+WARNING: [Synth 8-7129] Port dout[7] in module imrx is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dout[6] in module imrx is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dout[5] in module imrx is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dout[4] in module imrx is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dout[3] in module imrx is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dout[2] in module imrx is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dout[1] in module imrx is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dout[0] in module imrx is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1151.898 ; gain = 581.496
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1151.898 ; gain = 581.496
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1151.898 ; gain = 581.496
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1151.898 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'original'
+Finished Parsing XDC File [c:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'original'
+Parsing XDC File [c:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'processed'
+Finished Parsing XDC File [c:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'processed'
+Parsing XDC File [c:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.gen/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1/blk_mem_gen_1_in_context.xdc] for cell 'padded'
+Finished Parsing XDC File [c:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.gen/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1/blk_mem_gen_1_in_context.xdc] for cell 'padded'
+Parsing XDC File [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/constrs_1/new/constraints.xdc]
+WARNING: [Vivado 12-584] No ports matched 'conv_2'. [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/constrs_1/new/constraints.xdc:5]
+WARNING: [Vivado 12-584] No ports matched 'conv_complete_2'. [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/constrs_1/new/constraints.xdc:7]
+WARNING: [Vivado 12-584] No ports matched 'pad_2'. [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/constrs_1/new/constraints.xdc:10]
+WARNING: [Vivado 12-584] No ports matched 'padded2_complete'. [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/constrs_1/new/constraints.xdc:11]
+WARNING: [Vivado 12-584] No ports matched 'conv_complete_2'. [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/constrs_1/new/constraints.xdc:25]
+WARNING: [Vivado 12-584] No ports matched 'padded2_complete'. [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/constrs_1/new/constraints.xdc:27]
+WARNING: [Vivado 12-584] No ports matched 'conv_complete_2'. [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/constrs_1/new/constraints.xdc:39]
+WARNING: [Vivado 12-584] No ports matched 'padded2_complete'. [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/constrs_1/new/constraints.xdc:41]
+WARNING: [Vivado 12-584] No ports matched 'padded2_complete'. [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/constrs_1/new/constraints.xdc:55]
+WARNING: [Vivado 12-584] No ports matched 'conv_complete_2'. [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/constrs_1/new/constraints.xdc:56]
+WARNING: [Vivado 12-584] No ports matched 'pad_2'. [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/constrs_1/new/constraints.xdc:60]
+WARNING: [Vivado 12-584] No ports matched 'conv_2'. [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/constrs_1/new/constraints.xdc:61]
+WARNING: [Vivado 12-584] No ports matched 'add'. [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/constrs_1/new/constraints.xdc:73]
+WARNING: [Vivado 12-584] No ports matched 'adder_done'. [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/constrs_1/new/constraints.xdc:74]
+WARNING: [Vivado 12-584] No ports matched 'adder_done'. [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/constrs_1/new/constraints.xdc:75]
+WARNING: [Vivado 12-584] No ports matched 'adder_done'. [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/constrs_1/new/constraints.xdc:76]
+WARNING: [Vivado 12-584] No ports matched 'add'. [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/constrs_1/new/constraints.xdc:77]
+WARNING: [Vivado 12-584] No ports matched 'adder_done'. [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/constrs_1/new/constraints.xdc:78]
+Finished Parsing XDC File [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/constrs_1/new/constraints.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/constrs_1/new/constraints.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/topmodule_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/constrs_1/new/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/topmodule_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/topmodule_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1241.168 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1241.168 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1241.168 ; gain = 670.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1241.168 ; gain = 670.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for original. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for processed. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for padded. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1241.168 ; gain = 670.766
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'convolution'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE2 |                             0001 |                               00
+                 iSTATE0 |                             0010 |                               01
+                  iSTATE |                             0100 |                               10
+                 iSTATE1 |                             1000 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'convolution'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1241.168 ; gain = 670.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input   15 Bit       Adders := 4     
+	   2 Input   14 Bit       Adders := 2     
+	   2 Input    9 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 3     
+	   2 Input    3 Bit       Adders := 1     
+	   2 Input    2 Bit       Adders := 3     
++---Registers : 
+	               16 Bit    Registers := 2     
+	               15 Bit    Registers := 2     
+	               14 Bit    Registers := 4     
+	               10 Bit    Registers := 2     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 14    
+	                4 Bit    Registers := 3     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 5     
+	                1 Bit    Registers := 27    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 1     
+	   4 Input   16 Bit        Muxes := 1     
+	   2 Input   15 Bit        Muxes := 3     
+	   4 Input   15 Bit        Muxes := 1     
+	   2 Input   14 Bit        Muxes := 6     
+	   2 Input   10 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 7     
+	   4 Input    8 Bit        Muxes := 2     
+	  10 Input    4 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 5     
+	   2 Input    2 Bit        Muxes := 3     
+	   4 Input    2 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 52    
+	   4 Input    1 Bit        Muxes := 8     
+	   3 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3936] Found unconnected internal register 'addr_top_reg' and it is trimmed from '14' to '11' bits. [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/sources_1/new/topmodule.v:23]
+WARNING: [Synth 8-3936] Found unconnected internal register 'addr_processed_reg' and it is trimmed from '14' to '11' bits. [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/sources_1/new/topmodule.v:41]
+WARNING: [Synth 8-3936] Found unconnected internal register 'addr_padded_reg' and it is trimmed from '15' to '11' bits. [C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.srcs/sources_1/new/topmodule.v:32]
+WARNING: [Synth 8-7129] Port dout[7] in module imrx is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dout[6] in module imrx is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dout[5] in module imrx is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dout[4] in module imrx is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dout[3] in module imrx is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dout[2] in module imrx is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dout[1] in module imrx is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dout[0] in module imrx is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1241.168 ; gain = 670.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1341.797 ; gain = 771.395
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1342.465 ; gain = 772.062
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1371.113 ; gain = 800.711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1568.262 ; gain = 997.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1568.262 ; gain = 997.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1568.262 ; gain = 997.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1568.262 ; gain = 997.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1568.262 ; gain = 997.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1568.262 ; gain = 997.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |blk_mem_gen_0 |         2|
+|2     |blk_mem_gen_1 |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |blk_mem_gen   |     1|
+|2     |blk_mem_gen_0 |     1|
+|3     |blk_mem_gen   |     1|
+|4     |BUFG          |     1|
+|5     |CARRY4        |   132|
+|6     |LUT1          |    37|
+|7     |LUT2          |   142|
+|8     |LUT3          |   237|
+|9     |LUT4          |   257|
+|10    |LUT5          |   112|
+|11    |LUT6          |    77|
+|12    |FDRE          |   272|
+|13    |FDSE          |    16|
+|14    |IBUF          |     6|
+|15    |OBUF          |    12|
++------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1568.262 ; gain = 997.859
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 12 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 1568.262 ; gain = 908.590
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1568.262 ; gain = 997.859
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1577.434 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 132 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1581.125 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: e008ac00
+INFO: [Common 17-83] Releasing license: Synthesis
+33 Infos, 51 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.statsThreshold
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1581.125 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/borat/OneDrive/Desktop/Semesters/Fourth Semester/Digital System/project_15/project_15.runs/synth_1/topmodule.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file topmodule_utilization_synth.rpt -pb topmodule_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Apr 19 22:36:09 2025...
