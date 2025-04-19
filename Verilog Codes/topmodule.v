@@ -89,7 +89,7 @@ wire [7:0] din_pad_0;
 wire [7:0] din_pad_1;
 reg [7:0] dout_pad_0;
 reg [7:0] dout_pad_1;
-padder uut3(
+padding uut3(
     .clk(clk),
     .go(pad),
     .address(address_pad),
@@ -122,7 +122,7 @@ wire [7:0] din_conv_0;
 reg [7:0] dout_conv_1_;
 reg [7:0] dout_conv_0_;
 
-conv uut4(
+convolution uut4(
     .clk(clk),
     .rst(~conv),
     .infer(infer_conv),

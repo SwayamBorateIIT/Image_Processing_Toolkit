@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module conv(input clk,input rst,input infer,input [14:0]addr, output [7:0]out, output reg conv_done,
+module convolution(input clk,input rst,input infer,input [14:0]addr, output [7:0]out, output reg conv_done,
 output ena_conv_1,
 output ena_conv_0,
 output wea_conv_1,

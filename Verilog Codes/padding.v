@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module padder(
+module padding(
     input clk,
     input go,
     input [14:0] address,
