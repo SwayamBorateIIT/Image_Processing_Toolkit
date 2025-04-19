@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri Apr 18 18:57:31 2025
+# Process ID         : 38952
+# Current directory  : C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1
+# Command line       : vivado.exe -log topmodule.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source topmodule.tcl -notrace
+# Log file           : C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.vdi
+# Journal file       : C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1\vivado.jou
+# Running On         : KrishKaLappy
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i7-12700H
+# CPU Frequency      : 2688 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 16858 MB
+# Swap memory        : 29969 MB
+# Total Virtual      : 46827 MB
+# Available Virtual  : 18993 MB
+#-----------------------------------------------------------
+source topmodule.tcl -notrace

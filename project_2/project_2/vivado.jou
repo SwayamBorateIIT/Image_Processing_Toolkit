@@ -1,0 +1,503 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri Apr 18 13:46:11 2025
+# Process ID         : 17488
+# Current directory  : C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent4476 C:\Users\krish\Downloads\Digital Projects\Digital_project_12\project_2\project_2.xpr
+# Log file           : C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/vivado.log
+# Journal file       : C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2\vivado.jou
+# Running On         : KrishKaLappy
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i7-12700H
+# CPU Frequency      : 2688 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 16858 MB
+# Swap memory        : 29981 MB
+# Total Virtual      : 46839 MB
+# Available Virtual  : 22963 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+reset_run synth_1
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_2/project_2.runs/impl_1/topmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+create_project project_3 {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3} -part xc7a35tcpg236-1
+set_property board_part digilentinc.com:basys3:part0:1.2 [current_project]
+file mkdir C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.srcs/sources_1/new
+file mkdir C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.srcs/sources_1/new
+file mkdir C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.srcs/sources_1/new
+file mkdir C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.srcs/sources_1/new
+file mkdir C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.srcs/sources_1/new
+file mkdir C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.srcs/sources_1/new
+file mkdir {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.srcs/sources_1/new}
+close [ open {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.srcs/sources_1/new/topmodule.v} w ]
+add_files {{C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.srcs/sources_1/new/topmodule.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.srcs/sources_1/new/imtx.v} w ]
+add_files {{C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.srcs/sources_1/new/imtx.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.srcs/sources_1/new/imrx.v} w ]
+add_files {{C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.srcs/sources_1/new/imrx.v}}
+update_compile_order -fileset sources_1
+current_project project_2
+current_project project_3
+current_project project_2
+current_project project_3
+close [ open {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.srcs/sources_1/new/MatrixMultiplier.v} w ]
+add_files {{C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.srcs/sources_1/new/MatrixMultiplier.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.srcs/sources_1/new/conv.v} w ]
+add_files {{C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.srcs/sources_1/new/conv.v}}
+update_compile_order -fileset sources_1
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name blk_mem_gen_0
+set_property CONFIG.Write_Depth_A {1200} [get_ips blk_mem_gen_0]
+generate_target {instantiation_template} [get_files {{c:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci}}]
+current_project project_2
+generate_target all [get_files  {{c:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci}}]
+catch { config_ip_cache -export [get_ips -all blk_mem_gen_0] }
+export_ip_user_files -of_objects [get_files {{c:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci}}] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] {{c:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci}}]
+current_project project_3
+update_compile_order -fileset sources_1
+current_project project_2
+current_project project_3
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name blk_mem_gen_1
+generate_target {instantiation_template} [get_files {{c:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci}}]
+generate_target all [get_files  {{c:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci}}]
+catch { config_ip_cache -export [get_ips -all blk_mem_gen_1] }
+export_ip_user_files -of_objects [get_files {{c:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci}}] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] {{c:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci}}]
+launch_runs blk_mem_gen_1_synth_1 -jobs 10
+wait_on_run blk_mem_gen_1_synth_1
+export_simulation -lib_map_path [list {modelsim=C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.cache/compile_simlib/modelsim} {questa=C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.cache/compile_simlib/questa} {riviera=C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.cache/compile_simlib/riviera} {activehdl=C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.cache/compile_simlib/activehdl}] -of_objects [get_files {{c:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci}}] -directory {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.ip_user_files} -ipstatic_source_dir {C:/Users/krish/Downloads/Digital Projects/Digital_project_12/project_3/project_3.ip_user_files/ipstatic} -use_ip_compiled_libs -force -quiet
+current_project project_2
+current_project project_3
