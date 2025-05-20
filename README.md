@@ -5,7 +5,7 @@
 **Project Supervisor:** Abhinav Goud</br>
 
 
-This repository contains our HDL sources and related attempts for the Image Processing Toolkit project under ES 204
+This repository contains our HDL sources and related attempts for the Image Processing Toolkit project under ES 204.
 
 ![Final Image](results/results.png)
 
